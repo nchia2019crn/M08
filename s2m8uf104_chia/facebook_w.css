@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eaebed;
+  font-family: LucidaGrande;
+}
+
+#barra {
+  height: 43px;
+  background-color: #5067af;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#contingut {
+  height: auto;
+  width: 853px;
+  background-color: #eaebed;
+  margin: auto;
+
+}
+#cap {
+  height: 358px;
+  width: 853px;
+  margin: auto;
+  background-image: url(img/cap.jpg);
+  background-repeat: no-repeat;
+}
+
+#contingut #cap {
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+
+#cap img {
+  position: relative;
+  top: 220px;
+  left: 16px;
+  border-radius: 50%;
+  border: solid white 4px;
+  box-shadow: 5px 5px 10px grey;
+}
+#principal {
+  height: 1462px;
+  width: 853px;
+  background-color: #d78b3a;
+  margin: auto;
+}
+#contingut #cap h2
+{
+  position: relative;
+  top: 75px;
+  left: 230px;
+  color: white;
+  text-shadow: 5px 5px 7px grey;
+}
+
+#contingut #menu {
+  height: 43px;
+  width: 600px;
+  margin-left: 200px;
+  position:relative;
+  top: 74px;
+  background-color: white;
+  color: grey;
+}
+
+li {
+  position:relative;
+  display:inline;
+  float: right;
+  margin: 1px;
+  list-style: none;
+  height: 43px;
+  padding: 0 30px;
+  line-height: 43px;
+  top: 14px;
+
+
+}
+
+#presentacio {
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
+  height: 200px;
+  width: 322px;
+  float: left;
+  margin-top: 12px;
+}
