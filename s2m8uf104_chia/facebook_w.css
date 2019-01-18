@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #eaebed;
-  font-family: LucidaGrande;
+  font-family: 'LucidaGrande', Tahoma, Segoe IU, San Francisco, Roboto;
 }
 
 #barra {
@@ -24,18 +24,20 @@ body {
   height: 358px;
   width: 853px;
   margin: auto;
-  background-image: url(img/cap.jpg);
-  background-repeat: no-repeat;
 }
 
 #contingut #cap {
-  border: 1px solid #DDD;
-  border-radius: 4px;
-  margin-bottom: 12px;
+ height: 358px;
+ background-color: white;
+ background-image: url(img/cap.jpg);
+ background-repeat: no-repeat;
+ border: solid 1px #DDD;
+ border-radius: 3px;
+
 }
 
 
-#cap img {
+#contingut #cap img {
   position: relative;
   top: 220px;
   left: 16px;
@@ -70,7 +72,6 @@ body {
 
 li {
   position:relative;
-  display:inline;
   float: right;
   margin: 1px;
   list-style: none;
@@ -82,12 +83,40 @@ li {
 
 }
 
-#presentacio {
+#seccions {
+  width: 322px;
+  height: 200px;
+  float: left;
+}
+
+.esquerra {
   background-color: white;
   border-radius: 3px;
   border: solid 1px #DDD;
   height: 200px;
   width: 322px;
-  float: left;
+  margin: 1px;
+
+}
+
+.dreta {
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
+  height: 200px;
+  width: 516px;
+  float: right;
+  clear: right;
+
+}
+
+.esquerra, .dreta {
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
   margin-top: 12px;
+}
+
+#presentacio {
+
 }
