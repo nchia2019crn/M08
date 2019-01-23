@@ -12,9 +12,9 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1000;
 }
 #contingut {
-  height: auto;
   width: 853px;
   background-color: #eaebed;
   margin: auto;
@@ -70,30 +70,27 @@ body {
   color: grey;
 }
 
-li {
-  position:relative;
-  float: right;
+#menu li {
+  float: left;
   margin: 1px;
-  list-style: none;
+  list-style-type: none;
   height: 43px;
   padding: 0 30px;
   line-height: 43px;
   top: 14px;
-
-
 }
 
 #seccions {
-  width: 322px;
+  width: 298px;
   height: 200px;
   float: left;
+
 }
 
 .esquerra {
   background-color: white;
   border-radius: 3px;
   border: solid 1px #DDD;
-  height: 200px;
   width: 322px;
   margin: 1px;
 
@@ -104,7 +101,7 @@ li {
   border-radius: 3px;
   border: solid 1px #DDD;
   height: 200px;
-  width: 516px;
+  width: 470px;
   float: right;
   clear: right;
 
@@ -115,8 +112,116 @@ li {
   border-radius: 3px;
   border: solid 1px #DDD;
   margin-top: 12px;
+  overflow: hidden;
+  padding: 12px;
 }
 
 #presentacio {
+overflow: hidden;
+}
 
+#principal  li {
+  float: left;
+  margin: 1px;
+  list-style: none;
+  height: 43px;
+  padding: 0 30px;
+  line-height: 43px;
+  top: 14px;
+}
+
+#amistats {
+overflow: hidden;
+}
+
+#presentacio, #amistats, #fotos {
+  font-size: 12px;
+}
+
+#seccions h3 {
+  text-indent: 26px;
+  background-image: url(img/lateral.png);
+  background-repeat: no-repeat;
+  background-position: 0 -24px;
+  height: 24px;
+}
+
+#presentacio p {
+  border-bottom: solid 1px #DDD;
+
+}
+
+#presentacio h3 {
+  background-position: 0 0;
+}
+
+#amistats h3 {
+  background-position: 0 -48px;
+}
+
+#surprise h3 {
+  background-position: 0 -72px;
+}
+
+#presentacio .estudis {
+  list-style-image: url(iconetes/icones_estudis.png);
+
+}
+
+#presentacio .domicili {
+  list-style-image: url(iconetes/icones_domicili.png);
+
+}
+
+#presentacio .sentimental {
+  list-style-image: url(iconetes/icones_sentimental.png);
+}
+
+#amistats ul li {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: 2px;
+  padding: 2px;
+
+}
+
+a: hover {
+  text-decoration: none;
+}
+
+#yaiza {
+background-image: url(img/yaiza.jpg)
+}
+
+#oriol {
+background-image: url(img/oriol.png)
+}
+
+#aaron {
+background-image: url(img/aaron.jpg)
+}
+
+#siria {
+background-image: url(img/siria.png)
+}
+
+#mario {
+background-image: url(img/mario.jpg)
+}
+
+#victor {
+background-image: url(img/victor.png)
+}
+
+#gemma {
+background-image: url(img/gemma.jpg)
+}
+
+#patri {
+background-image: url(img/patri.gif)
+}
+
+#sandra {
+background-image: url(img/sandra.jpg)
 }
