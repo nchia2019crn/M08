@@ -1,0 +1,59 @@
+body {
+  background-color: #222;
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #FFF;
+}
+
+#barra {
+  background-color: black;
+  opacity: 0.5;
+  background-image: url(img/logo.png);
+  background-repeat: no-repeat;
+
+}
+#barra ul li {
+  list-style: none;
+  display: block;
+}
+.dreta {
+  margin: 20px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+#d_interesants {
+  height: 700px;
+  width: 1300px;
+}
+
+#d_vistos {
+  height: 450px;
+  width: 1000px;
+}
+
+.resta  {
+  height: 350px;
+  width: 500px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.caixa_tots {
+  position: relative;
+  float:left;
+  width: 175px;
+  margin: 10px;
+  font-size: 11px;
+}
+
+.caixa_sense {
+  width: 175px;
+  height: 200px;
+  background-color: red;
+  float: left;
+}
