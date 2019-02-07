@@ -179,6 +179,12 @@
           list-style-image: url(iconetes/icones_sentimental.png);
         }
 
+        #fotos {
+        overflow:hidden;
+        float: left;
+
+        }
+
         #amistats ul li {
           width: 80px;
           height: 80px;
@@ -408,6 +414,7 @@
         padding:0;
         background-color: #FFFFFF;
         font-family: 'Helvetica', Tahoma, Segoe IU, San Francisco, Roboto;
+        overflow-x: hidden;
         }
 
         #barra {
