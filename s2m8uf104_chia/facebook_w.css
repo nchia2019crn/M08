@@ -153,6 +153,10 @@
 
         }
 
+        #dreta entrada {
+
+        }
+
         #presentacio h3 {
           background-position: 0 0;
         }
@@ -179,11 +183,7 @@
           list-style-image: url(iconetes/icones_sentimental.png);
         }
 
-        #fotos {
-        overflow:hidden;
-        float: left;
 
-        }
 
         #amistats ul li {
           width: 80px;
@@ -191,12 +191,21 @@
           float: left;
           margin: 2px;
           padding: 2px;
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  list-style-type: none;
 
         }
 
-        a: hover {
+        a: link {
           text-decoration: none;
         }
+		
+		a:link {
+		text-decoration: none;
+		text-align: center;	
+		color: white;		}	
+		
 
         #yaiza {
         background-image: url(img/yaiza.jpg)
@@ -234,6 +243,53 @@
         background-image: url(img/sandra.jpg)
         }
 
+
+		#fotos ul li {
+          width: 80px;
+          height: 80px;
+          float: left;
+          margin: 2px;
+          padding: 2px;
+		  background-size: 150%;
+		  background-repeat: no-repeat;
+
+        }
+
+        #f1 {
+        background-image: url(img/f1.jpg)
+        }
+
+        #f2 {
+        background-image: url(img/f2.png)
+        }
+
+        #f3 {
+        background-image: url(img/f3.jpg)
+        }
+
+        #f4 {
+        background-image: url(img/f4.png)
+        }
+
+        #f5 {
+        background-image: url(img/f5.jpg)
+        }
+
+        #f6 {
+        background-image: url(img/f6.png)
+        }
+
+        #f7 {
+        background-image: url(img/f7.jpg)
+        }
+
+        #f8 {
+        background-image: url(img/f8.gif)
+        }
+
+        #f9 {
+        background-image: url(img/f9.jpg)
+        }
 
         #crear {
           width: 492px;
@@ -330,7 +386,10 @@
           text-indent: 24px;
           border-left: 1px grey;
         }
-
+		
+		.entrada {
+		height: auto;}
+		
         .entrada h4 {
           height: 40px;
           text-indent: 60px;
@@ -348,6 +407,7 @@
           text-indent: 20px;
           background-image: url(iconetes/like_blue.png);
           border-bottom: 1px solid grey;
+		  background-repeat: no-repeat;
         }
 
         .entrada ul {
@@ -412,7 +472,7 @@
         body {
         margin: 0;
         padding:0;
-        background-color: #FFFFFF;
+        background-color: #eaebed;
         font-family: 'Helvetica', Tahoma, Segoe IU, San Francisco, Roboto;
         overflow-x: hidden;
         }
@@ -422,6 +482,8 @@
         }
 
         #contingut {
+			background-color: #eaebed;
+			
 
 
         }
@@ -442,31 +504,46 @@
         #contingut #cap img {
         width: 162px;
         height: 162px;
-        border-radius: 50%;
         border: 4px white solid;
         margin: auto;
         margin-top: 173px;
+		background-color: #eaebed;
         }
 
 
         #principal {
           margin-top: 262px;
+		  background-color: white;
+		  
 
         }
         #contingut #cap h2{
         font-size: 28px;
         font-weight: 200;
+		
         }
 
         #contingut #menu {
-        visibility: hidden;
+        list-style-type: none;
+		background-color: #f4f5f6;
+		padding: 10px;
+		
+		
+		
+		
+		
         }
 
         #menu li {
-
+		text-align: center;
+		display: inline;
+		margin: 10px;
+		
+		
         }
 
         #seccions {
+			
 
 
         }
@@ -477,11 +554,18 @@
         }
 
         .dreta {
-
+        width: 100%;
+        float: none;
+        clear: none;
+        padding: 12px;
+        margin-bottom: 30px;
+        box-shadow: 5px  5px 5px grey;
+		
 
         }
 
         .esquerra, .dreta {
+		border: solid 1px #DDD;
 
         }
 
@@ -493,7 +577,8 @@
         list-style-type: none;
         }
 
-        #amistats {
+        #amistats, #fotos {
+          display:none;
 
         }
 
@@ -594,92 +679,159 @@
 
 
         #crear {
-
+          width: 100%;
+          padding: 1px;
+          margin: 0;
 
         }
 
+        #estat {
+          width: 100%;
+          padding: 12px;
+          margin: 0;
+          position: relative;
+          overflow: hidden;
+        }
         #estat #crear li{
+          height: 40px;
+          background-color: #f4f5f6;
+          font-size: 12px;
+          padding: 0 5px 4px 25px;
+          float: left;
+          margin: 0 auto;
+
 
         }
 
         #pensar {
-
+          display: block;
+          padding: 4px;
+          height: 25px;
+          width: 50px;
+          position:relative;
+          margin-top: 110px;
+          padding: 0;
+          width: 515px;
 
         }
 
         #botonera_estat {
-
+          padding: 1px;
+          position:relative;
+          float:left;
+          background-color: #f4f5f6;
+          font-size: 12px;
+          border-radius: 10%;
         }
 
         #botonera_estat li {
-
+          padding: 1px;
+          position:relative;
+          border-radius: 30%;
+          text-indent: 24px;
         }
 
         #estat_fotovideo {
-
+          background-image: url(iconetes/btn2.png);
+          background-repeat: no-repeat;
+          background-position: 3px 8px;
         }
 
         #estat_etiquetar {
-
+          background-image: url(iconetes/btn3.png);
+          background-repeat: no-repeat;
+          background-position: 3px 8px;
         }
 
         #estat_sentimiento {
-
+          background-image: url(iconetes/btn1.png);
+          background-repeat: no-repeat;
+          background-position: 3px 8px;
         }
 
         #botonera_estat li:hover {
-
+          opacity: 0.5;
         }
         #publica {
-
+          background-image: url(iconetes/publica2.png);
+          background-repeat: no-repeat;
+          background-position: 23px 13px;
         }
 
         #publica_foto {
-
+          background-image: url(iconetes/publica3.png);
+          background-repeat: no-repeat;
+          background-position: 23px 13px;
         }
 
         #publica_video {
-
+          background-image: url(iconetes/publica4.png);
+          background-repeat: no-repeat;
+          background-position: 23px 13px;
         }
 
         #publica_aconteixement {
-
+          background-image: url(iconetes/publica.png);
+          background-repeat: no-repeat;
+          background-position: 23px 13px;
         }
 
         #crear li {
-
+          background-color: #f5f5f7;
+          text-indent: 24px;
+          border-left: 1px grey;
         }
 
         .entrada h4 {
-
+          height: 40px;
+          text-indent: 60px;
         }
 
         .entrada h5 span {
-
+          color: blue;
         }
 
         .entrada h5 {
-
+          color: grey;
         }
 
         .entrada h6 {
-
+          text-indent: 20px;
+          background-image: url(iconetes/like_blue.png);
+		  background-repeat: no-repeat;
+          border-bottom: 1px solid grey;
         }
 
         .entrada ul {
-
+        height: 30px;
+        width: 100%;
+        overflow:hidden;
+        padding: 0 12px;
         }
 
         .entrada ul li {
-
+        display:list-item;
+        list-style-image: url(iconetes/like.png);
+        float: left;
+        margin-left: 30px;
+        font-size: 10px;
+        font-weight: bold;
         }
 
         .entrada input::after {
-
+        background-image: url(img/cap.jpg);
+        display: block;
+        width: 40px;
+        height: 40px;
+        position:absolute;
+        top: -50px;
+        left: -50px;
+        z-index: 4000;
         }
 
         #like {
           list-style-image: url(iconetes/like.png);
+		  
         }
 
         #comenta {
@@ -693,7 +845,6 @@
         #mes {
           list-style-image: none;
         }
-
 }
 
 /*
