@@ -206,3 +206,231 @@ h2 {
       background-color: red;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*version movil*/
+@media only screen and (max-width: 959px){
+
+
+  body , html {
+    margin: 0;
+    padding: 0;
+    background: #ecedef;
+    font-family: Open Sans,Arial,sans-serif;
+    color: #333;
+
+  }
+
+
+  .menu {
+    width: 100%;
+    height: 50px;
+    background-color: #2C3030;
+    z-index: 300;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    visibility: hidden;
+  }
+
+
+  img {
+    width: 30px;
+  }
+
+  ul {
+    list-style: none;
+    visibility: hidden;
+  }
+
+  li {
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    visibility: hidden;
+  }
+
+
+  h3{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
+  }
+
+  h4{
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-size: 16px;
+
+  }
+
+
+  h2 {
+    margin: 0;
+    margin-left: 70px;
+    padding: 0;
+
+  }
+
+  .player #songArtist {
+    margin: 10px;
+  }
+
+  .contenedor_1{
+    float: left;
+    width: 100%;
+    bottom: 40em;
+
+  }
+
+  .contenedor_2{
+    margin-bottom: 10px;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 400px;
+    visibility: hidden;
+  }
+
+  .container {
+    float: left;
+    margin: 3em;
+    width: 20em;
+    height: 25em;
+    position: relative;
+    display: inline;
+    left: 39%;
+    bottom: 10%;
+    transform: translate(-50%, 50%);
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    cursor: pointer;
+
+  }
+
+  .container-top {
+    width: 20em;
+  }
+
+  .container-top img {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    width: 20em;
+
+  }
+
+  .container-bottom {
+    width: 360px;
+    padding: 10px 20px 20px 20px;
+  }
+
+
+  .player{
+      align-items: center;
+      background-color: #fff;
+      bottom: 0;
+      -webkit-box-shadow: 0 -1px 12px 0 rgba(25,25,34,.12);
+      box-shadow: 0 -1px 12px 0 rgba(25,25,34,.12);
+      display: flex;
+      height: 200px;
+      left: 0;
+      min-width: 990px;
+      padding: 0 24px;
+      position: fixed;
+      right: 0;
+      z-index: 300;
+    }
+
+
+      .barra{
+        width: 100px;
+
+
+      }
+
+      .buttons{
+        margin: 40px 0 10px 0;
+        width: 300px;
+        float: left;
+
+      }
+
+      #playPause, #backward, #forward {
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border:0;
+        outline: none;
+        cursor: pointer;
+        font-size: 26px;
+        line-height: 26px;
+        color: #333;
+        margin: 10px;
+        float: center;
+
+      }
+
+      #playPause, #backward, #forward {
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border:0;
+        outline: none;
+        cursor: pointer;
+        font-size: 26px;
+        line-height: 26px;
+        color: #333;
+        margin: 10px;
+
+      }
+
+      #timeNow{
+        margin: 40px 0 10px 0;
+        width: 160px;
+        float: left;
+        text-align: left;
+
+      }
+
+      #durationBar {
+        width: 700px;
+        height: 10px;
+        background: #333;
+        display: flex;
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3), 0 3px 10px 0 rgba(0,0,0,0.3);
+      }
+
+      #expandingBar{
+        height: 10px;
+        background-color: red;
+      }
+
+      #movingBar{
+        height: 10px;
+        background-color: red;
+      }
+
+
+}
