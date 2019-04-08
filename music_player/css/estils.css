@@ -1,0 +1,208 @@
+/*version escritorio*/
+
+@media only screen and (min-width: 960px)  {
+body , html {
+  margin: 0;
+  padding: 0;
+  background: #ecedef;
+  font-family: Open Sans,Arial,sans-serif;
+  color: #333;
+
+}
+
+
+.menu {
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  background-color: #2C3030;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+img {
+  width: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 20px;
+  padding: 10px;
+  width: 150px;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+li:hover {
+  background-color: grey;
+  transition: 0.5;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+h4{
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-size: 13px;
+}
+
+
+h2 {
+  margin: 0;
+  margin-left: 70px;
+  padding: 0;
+
+}
+
+.player #songArtist {
+  margin: 10px;
+}
+
+.contenedor_1{
+  margin-bottom: 10px;
+  left: 300px;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 350px;
+  overflow-x: auto;
+
+}
+
+.contenedor_2{
+  margin-bottom: 10px;
+  left: 300px;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 400px;
+  overflow-x: auto;
+}
+
+.container {
+  float: left;
+  margin: 10px;
+  width: 150px;
+  position: relative;
+  display: inline;
+  left: 7%;
+  bottom: 10%;
+  transform: translate(-50%, 50%);
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+  border-radius: 14px;
+  cursor: pointer;
+
+}
+
+.container:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.container-top:hover {
+  opacity: 0.7;
+
+}
+
+
+.container-top {
+  width: 150px;
+}
+
+.container-top img {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  width: 150px;
+
+}
+
+.container-bottom {
+  width: 360px;
+  padding: 10px 20px 20px 20px;
+}
+
+.player{
+	 -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    bottom: 0;
+    -webkit-box-shadow: 0 -1px 12px 0 rgba(25,25,34,.12);
+    box-shadow: 0 -1px 12px 0 rgba(25,25,34,.12);
+    display: flex;
+    height: 100px;
+    left: 0;
+    min-width: 990px;
+    padding: 0 24px;
+    position: fixed;
+    right: 0;
+    z-index: 300;
+  }
+
+
+    .barra{
+      width: 1000px;
+
+    }
+
+    .buttons{
+      margin: 40px 0 10px 0;
+      width: 300px;
+      float: left;
+
+    }
+
+    #playPause, #backward, #forward {
+      width: 30px;
+      height: 30px;
+      background: #fff;
+      border:0;
+      outline: none;
+      cursor: pointer;
+      font-size: 26px;
+      line-height: 26px;
+      color: #333;
+      margin: 10px;
+
+    }
+
+    #timeNow{
+      margin: 40px 0 10px 0;
+      width: 160px;
+      float: left;
+      text-align: left;
+
+    }
+
+    #durationBar {
+      width: 700px;
+      height: 10px;
+      background: #333;
+      display: flex;
+      cursor: pointer;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3), 0 3px 10px 0 rgba(0,0,0,0.3);
+    }
+
+    #expandingBar{
+      height: 10px;
+      background-color: red;
+    }
+
+    #movingBar{
+      height: 10px;
+      background-color: red;
+    }
+}
